@@ -123,7 +123,7 @@ body {
     padding: 8px 15px;
     height: 60px;
     border-radius: 30px;
-    flex: 1;
+    flex: 0.7;
     margin-right: 10px;
     font-size: 16px;
   }
