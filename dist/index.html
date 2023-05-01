@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>Weather Forecast Website</title>
+</head>
+<body>
+  <div class="card">
+    <div class="search">
+      <input type="text" placeholder="Enter city name" spellcheck="false">
+      <button><img src="./img/search.png" alt="" /></button>
+    </div>
+    <div class="error">
+      <p> Incorrect city name</p>
+    </div>
+    <div class="weather">
+      <img src="./img/rain.png" class="weather-icon"/>
+      <h1 class="temp"> 7°c </h1>
+      <h2 class="city"> Kursk</h2>
+      <div class="details">
+        <div class="col">
+          <img src="./img/humidity.png" />
+          <div>
+            <p class="humidity"> 50%</p>
+            <p>Humidity</p>
+          </div>
+        </div>
+        <div class="col">
+          <img src="./img/wind.png" />
+          <div>
+            <p class="wind"> 15 km/h </p>
+            <p>Wind Speed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>

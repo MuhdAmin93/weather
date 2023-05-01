@@ -1,0 +1,17 @@
+{
+  "name": "weather-forcast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://muhdamin93.github.io/weather",
+  "dependencies": {
+    "gh-pages": "^5.0.0"
+    
+  }
+}
